@@ -36,10 +36,17 @@ section#telefone{
 
 iframe#tela{
     position: relative;
-    top: 69px;
-    left: 19px;
-    width: 233px;
-    height: 409px;
+    top: 64px;
+    left: 17px;
+    width: 216px;
+    height: 379px;
+}
+
+section#redes-sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 130px;
 }
 
 section#redes-sociais > a > img{
@@ -57,7 +64,29 @@ section#redes-sociais img:hover{
     transition: transform 0.5s border 1s;
 }
 
-section#redes-sociais{
-    text-align: right;
+/*
+@media screen and (width: 370px){
+
+    section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 544px;
+    width: 270px;
+    background: url('../imagens/frame-iphone-3.png') no-repeat;
 }
 
+    iframe#tela{
+    position: relative;
+    top: 64px;
+    left: 17px;
+    width: 216px;
+    height: 379px;
+}
+ 
+    Redimensionar a imagem do celular, e os tamanhos do seletor iframe#tela.
+
+}
+*/
